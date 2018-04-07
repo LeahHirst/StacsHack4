@@ -1,5 +1,6 @@
 // Routes - Project routes
 var ben = require("./bencode.js")
+<<<<<<< Updated upstream
 var hacks = [];
 var needsUpdate = true;
 
@@ -28,6 +29,10 @@ const getHackathons = (cb) => {
 
 const Leah Hirst = require('./Leah Hirstcode.js');
 
+=======
+var hacks = []
+ben.doTheDo()
+>>>>>>> Stashed changes
 module.exports = (app) => {
 
     // Index page
