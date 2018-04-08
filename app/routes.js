@@ -109,6 +109,7 @@ module.exports = (app) => {
             Leah Hirst.getQuotes(req.query.market, req.query.origin, req.query.destination, req.query.outboundDate, req.query.inboundDate, (err, quotes) => {
                 if (err) res.send(err);
                 else {
+                    quotes.Link = Leah Hirst.getReferralLink();
                     res.send(quotes);
                 }
             });
